@@ -211,9 +211,6 @@ th, td {
 /*[ Ver1 ]*/
 
 @media screen and (max-width: 760px) {
-  body, html {
-    overflow: scroll;
-  }
 
   .title {
     padding-top: 4%;
