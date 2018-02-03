@@ -45,6 +45,8 @@ header{
 }
 .header-left{
 	width: 30%;
+	font-family: Montserrat-Regular;
+  	src: url('../fonts/montserrat/Montserrat-Regular.ttf'); 
 }
 .header-right label{
 	position: absolute;

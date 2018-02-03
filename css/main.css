@@ -17,7 +17,7 @@
 body, html {
 	height: 100%;
   width: 100%;
-	font-family: sans-serif;
+	/*font-family: sans-serif;*/
   background-color: #d1d1d1;
 }
 
@@ -136,7 +136,6 @@ iframe {
 }
 
 /*[ Table ]*/
-
 table {
   width: 100%;
   background-color: #fff;
