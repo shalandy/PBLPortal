@@ -96,7 +96,7 @@ iframe {
   background-color: #d1d1d1;
   font-family: Montserrat-Medium;
   margin: 0.5% 30% 1% 10%;
-  padding: 0.2% 10% 10% 100%;
+  padding: 0.2% 10% 1% 100%;
   font-size: 14px;
 }
 
@@ -225,7 +225,7 @@ th, td {
     font-family: Montserrat-Medium;
     color: grey;
     margin: 1% 120% 1% 10%;
-    padding: 5% 10% 10% 100%;
+    padding: 5% 10% 10% 10%;
     font-size: 12px;
     min-width: 0%;
   }
