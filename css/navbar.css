@@ -13,11 +13,7 @@
   *zoom: 1;
 }
 html{
-	font-family: Helvetica, arial, sans-serif;
 	font-size: 12px;
-}
-body{
-	background: url('brushed_alu.png');
 }
 .clearfix:before,
 .clearfix:after {
@@ -37,7 +33,11 @@ header{
 	height: auto;
 	background: black;
 }
-.header-left,
+.header-left {
+	position: relative;
+	color: white;
+	float: left;
+}
 .header-right{
 	position: relative;
 	color: white;
@@ -82,9 +82,16 @@ header{
 #open{
 	display: none;
 }
+img {
+	margin-right: 10px;
+	height: 25px;
+	width: 25px;
+	margin-bottom: 2px;	
+}
 h1{
 	font-weight: 300;
 	line-height: 40px;
+	font-size: 20px;
 }
 a{
 	text-decoration: none;
