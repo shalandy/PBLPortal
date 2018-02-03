@@ -13,7 +13,7 @@
 	var json = [
 					[
 						["Yusuf Yamani", "Eliot Hsu"], 
-						["Donna Ye", "David Pailet", "Zachary Osterland", "Sabrina Ni"],
+						["Donna Ye", "David Pailet", "Zachary Osterland", "Sabrina Ni", "Random Person"],
 						["Ozair Khan", "Tonya Nguyen", "Rena Song", "Meejin Choi"], 
 						["Jessica Tzeng", "Leona Chen", "Tae Kim"]],
 					[
@@ -51,6 +51,14 @@
 			});
 		});
 	});
+
+	var hrefs = [$('.js-button').attr('href'), 'https://goo.gl/forms/elEmOKavGFXGk2QF3'];
+
+	$(window).on('resize', function() {
+		$('.js-button').attr('href', function() {
+			return hrefs[$(window).width() > 737 ? 0 : 1];
+		});
+	}).trigger('resize');
 
 
 	// ~~~~~~~~~~~~~~~~~~~~~~~~~ Hover Animation ~~~~~~~~~~~~~~~~~~~~~~~~//
