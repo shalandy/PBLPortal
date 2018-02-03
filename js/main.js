@@ -53,7 +53,6 @@
 	});
 
 	var hrefs = [$('.js-button').attr('href'), 'https://goo.gl/forms/elEmOKavGFXGk2QF3'];
-
 	$(window).on('resize', function() {
 		$('.js-button').attr('href', function() {
 			return hrefs[$(window).width() > 737 ? 0 : 1];
