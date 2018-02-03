@@ -154,6 +154,10 @@ section{
 	h1{
 		padding: .5em 0;
 	}
+	img {
+		height: 33px;
+		width: 33px;
+	}
 	.header-left,
 	.header-right{
 		width: 100%;
