@@ -1,16 +1,16 @@
 @font-face {
   font-family: Montserrat-Regular;
-  src: url('../fonts/montserrat/Montserrat-Regular.ttf'); 
+  src: url('../fonts/montserrat/Montserrat-Regular.ttf');
 }
 
 @font-face {
   font-family: Montserrat-Medium;
-  src: url('../fonts/montserrat/Montserrat-Medium.ttf'); 
+  src: url('../fonts/montserrat/Montserrat-Medium.ttf');
 }
 
 * {
-	margin: 0px; 
-	padding: 0px; 
+	margin: 0px;
+	padding: 0px;
 	box-sizing: border-box;
 }
 
@@ -108,7 +108,18 @@ iframe {
   color: black;
   min-width: 150%;
 }
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Header Stuff ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Homepage ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+..img {
+  background-image: url(images/header.jpg);
+}
+@media
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi) {
+  .img {
+    background-image: url(images/header.jpg);
+  }
+}
 
 /*[ Table ]*/
 
@@ -236,8 +247,8 @@ th, td {
     color: grey;
   }
 
-  tr:nth-of-type(odd) { 
-    background-color: #eee; 
+  tr:nth-of-type(odd) {
+    background-color: #eee;
   }
 
   .table100.ver1 td {

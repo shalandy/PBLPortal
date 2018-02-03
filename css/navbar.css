@@ -45,8 +45,8 @@ header{
 }
 .header-left{
 	width: 30%;
-	font-family: Montserrat-Regular;
-  	src: url('../fonts/montserrat/Montserrat-Regular.ttf'); 
+	font-family: Montserrat-Light;
+  	src: url('../fonts/montserrat/Montserrat-Light.ttf');
 }
 .header-right label{
 	position: absolute;
@@ -88,7 +88,7 @@ img {
 	margin-right: 10px;
 	height: 27px;
 	width: 27px;
-	margin-bottom: 3px;	
+	margin-bottom: 3px;
 }
 h1{
 	font-weight: 300;
@@ -144,7 +144,7 @@ section{
 		padding: 0 1.5em;
 	}
 }
- 
+
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
 	.container{
@@ -170,7 +170,7 @@ section{
 		width: 100%;
 	}
 }
- 
+
 /* Landscape phones and down */
 @media (max-width: 480px) {
 	body{
