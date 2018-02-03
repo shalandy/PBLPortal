@@ -9,14 +9,14 @@
 					["thu10", "thu11", "thu12", "thu1"],
 					["fri10", "fri11", "fri12", "fri1"]];
 
-	// list of days, then time slots per day, then npeople per time slot
+	// list of days, then time slots per day, then people per time slot
 	var json = [
-					[ //monday
+					[
 						["Yusuf Yamani", "Eliot Hsu"], 
 						["Donna Ye", "David Pailet", "Zachary Osterland", "Sabrina Ni"],
 						["Ozair Khan", "Tonya Nguyen", "Rena Song", "Meejin Choi"], 
 						["Jessica Tzeng", "Leona Chen", "Tae Kim"]],
-					[ //tuesday
+					[
 						["Austin Kim", "Justin Kim", "Caroline Chen"], 
 						["Linda Li", "Cynthia Luan", "Sean Park"],
 						["Hermes Ip", "Sarah Shin", "Paras Dave", "Annie Ouyang"], 
@@ -51,7 +51,6 @@
 			});
 		});
 	});
-	console.log("Succcessfuly loaded JSON file");
 
 
 	// ~~~~~~~~~~~~~~~~~~~~~~~~~ Hover Animation ~~~~~~~~~~~~~~~~~~~~~~~~//
@@ -59,9 +58,7 @@
 	$('.column100').on('mouseover',function(){
 		// this grabs the table to find the appropriate style to use
 		var width = $(window).width();
-		console.log("window width is:" + width);
 		if (width > 760) {
-			console.log("entered if statement");
 			var table1 = $(this).parent().parent().parent();
 			var table2 = $(this).parent().parent();
 			var verTable = $(table1).data('vertable')+"";
